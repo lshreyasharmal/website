@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c4e6fb4.chunk.css",
-    "main.js": "/static/js/main.a9b7c749.chunk.js",
-    "main.js.map": "/static/js/main.a9b7c749.chunk.js.map",
+    "main.css": "/static/css/main.c850f3a6.chunk.css",
+    "main.js": "/static/js/main.9bce3674.chunk.js",
+    "main.js.map": "/static/js/main.9bce3674.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a976b5f9.js",
     "runtime-main.js.map": "/static/js/runtime-main.a976b5f9.js.map",
     "static/css/2.7b8a7a4e.chunk.css": "/static/css/2.7b8a7a4e.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.8c930f2a.chunk.js.map": "/static/js/3.8c930f2a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7b8a7a4e.chunk.css.map": "/static/css/2.7b8a7a4e.chunk.css.map",
-    "static/css/main.9c4e6fb4.chunk.css.map": "/static/css/main.9c4e6fb4.chunk.css.map",
+    "static/css/main.c850f3a6.chunk.css.map": "/static/css/main.c850f3a6.chunk.css.map",
     "static/js/2.5c7fcd4a.chunk.js.LICENSE.txt": "/static/js/2.5c7fcd4a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/BestermindRegular.e58a1922.ttf",
     "static/media/adobe-xd.a6dca99d.svg": "/static/media/adobe-xd.a6dca99d.svg",
@@ -89,6 +89,7 @@
     "static/media/greenTheme-girl.95973dba.svg": "/static/media/greenTheme-girl.95973dba.svg",
     "static/media/haxe.10a910ff.svg": "/static/media/haxe.10a910ff.svg",
     "static/media/html.6a342d61.svg": "/static/media/html.6a342d61.svg",
+    "static/media/iiitd.f93c1a1e.jpeg": "/static/media/iiitd.f93c1a1e.jpeg",
     "static/media/illustrator.33feff48.svg": "/static/media/illustrator.33feff48.svg",
     "static/media/ionic.d2050eeb.svg": "/static/media/ionic.d2050eeb.svg",
     "static/media/java.d004bc17.svg": "/static/media/java.d004bc17.svg",
@@ -129,7 +130,7 @@
     "static/media/react.2b6a0717.svg": "/static/media/react.2b6a0717.svg",
     "static/media/redTheme-boy.846d9d39.svg": "/static/media/redTheme-boy.846d9d39.svg",
     "static/media/redTheme-girl.1ebbd52c.svg": "/static/media/redTheme-girl.1ebbd52c.svg",
-    "static/media/resume.c34d3d62.pdf": "/static/media/resume.c34d3d62.pdf",
+    "static/media/resume.28457265.pdf": "/static/media/resume.28457265.pdf",
     "static/media/ruby.34e792ab.svg": "/static/media/ruby.34e792ab.svg",
     "static/media/selenium.7dcf1c14.svg": "/static/media/selenium.7dcf1c14.svg",
     "static/media/seven.3168c0a5.svg": "/static/media/seven.3168c0a5.svg",
@@ -161,7 +162,7 @@
     "static/js/runtime-main.a976b5f9.js",
     "static/css/2.7b8a7a4e.chunk.css",
     "static/js/2.5c7fcd4a.chunk.js",
-    "static/css/main.9c4e6fb4.chunk.css",
-    "static/js/main.a9b7c749.chunk.js"
+    "static/css/main.c850f3a6.chunk.css",
+    "static/js/main.9bce3674.chunk.js"
   ]
 }

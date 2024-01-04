@@ -41,18 +41,18 @@
     transition: background-color 200ms ease-in-out;
 }
 
-.educard-img {
+/* .educard-img {
     border-radius: 50%;
-    width: 55px;
-    height: 55px;
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-}
+} */
 
 .educard-img > img {
-    width: 40px;
+    width: 100px;
 }
 
 .education-details{

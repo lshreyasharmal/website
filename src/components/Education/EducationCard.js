@@ -8,7 +8,7 @@ import eduImgWhite from '../../assets/svg/education/eduImgWhite.svg'
 import eduImgBlack from '../../assets/svg/education/eduImgBlack.svg'
 import './Education.css'
 
-function EducationCard({ id, institution, course, startYear, endYear }) {
+function EducationCard({ id, institution, course, startYear, endYear, icon }) {
 
     const { theme } = useContext(ThemeContext);
 
@@ -27,7 +27,7 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
         <Fade bottom>
             <div key={id} className={`education-card ${classes.educationCard}`} >
                 <div className="educard-img" style={{backgroundColor: theme.primary}}>
-                    <img src={theme.type === 'light' ? eduImgBlack : eduImgWhite} alt="" />
+                    <img src={icon} alt="" />
                 </div>
                 <div className="education-details">
                     <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>

@@ -25,6 +25,7 @@ function Education() {
                             course={edu.course}
                             startYear={edu.startYear}
                             endYear={edu.endYear}
+                            icon={edu.icon}
                         />
                     ))}
                 </div>
