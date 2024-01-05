@@ -28,7 +28,8 @@ function Experience() {
                             startYear={exp.startYear}
                             endYear={exp.endYear}
                             icon={exp.icon}
-                            desc={exp.desc}/>
+                            desc={exp.desc}
+                            link={exp.link}/>
                     ))}
                  </div>
              </div>

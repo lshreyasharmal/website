@@ -14,7 +14,7 @@ function Footer() {
     }
 
     const { theme }  = useContext(ThemeContext)
-
+    const today = new Date();
     return (
         <div className="footer" style={{backgroundColor: theme.secondary}}>
             <p style={{color: theme.tertiary}}>
@@ -22,7 +22,7 @@ function Footer() {
                 <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>
                     ❤
                 </span>
-                 by {shortname(headerData.name)}
+                 by {shortname(headerData.name)}, <small><i>Last Updated on {today.toDateString()}</i></small>
             </p>
         </div>
     )

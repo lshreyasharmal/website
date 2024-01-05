@@ -227,7 +227,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#skills'
+                                to='/#services'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
