@@ -11,9 +11,9 @@ function SingleService({id, title, icon}) {
     const { theme } = useContext(ThemeContext);
     return (
         <Fade bottom>
-            <div key={id} className="single-service" style={{backgroundColor:theme.primary400}}>
+            <div key={id} className="single-service" style={{backgroundColor:theme.tertiary88}}>
                 <div className="service-content"  style={{color:theme.tertiary}}>
-                    <i className="service-icon">{icon}</i>
+                    <i className="service-icon"> <img src={icon} alt={title} /></i>
                     <h4  style={{color:theme.tertiary}}>{title}</h4>  
                 </div>         
             </div>

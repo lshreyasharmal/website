@@ -10,5 +10,5 @@ export const socialsData = {
     // medium: 'https://medium.com/@',
     stackOverflow: 'https://stackoverflow.com/users/8312310/shreya-sharma',
     // gitlab: 'https://gitlab.com/',
-    // youtube: 'https://youtube.com/'
+    youtube: 'https://www.youtube.com/channel/UC_YaWTqaO2whfuqv1x9223g'
 }

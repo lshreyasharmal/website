@@ -26,7 +26,7 @@ function EducationCard({ id, institution, course, startYear, endYear, icon }) {
     return (
         <Fade bottom>
             <div key={id} className={`education-card ${classes.educationCard}`} >
-                <div className="educard-img" style={{backgroundColor: theme.primary}}>
+                <div className="educard-img" style={{backgroundColor: 'ease-in-out'}}>
                     <img src={icon} alt="" />
                 </div>
                 <div className="education-details">
