@@ -13,9 +13,10 @@ import {
     FaLinkedin,
     FaGithub,
     FaYoutube,
-    FaBlogger,
+    FaStackOverflow,
+    FaResearchgate,
 } from 'react-icons/fa';
-
+import { SiGooglescholar } from "react-icons/si";
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
 
@@ -127,16 +128,29 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {socialsData.stackOverflow && (
                             <a
-                                href={socialsData.blogger}
+                                href={socialsData.stackOverflow}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaBlogger
+                                <FaStackOverflow
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
+                                    aria-label='StackOverflow'
+                                />
+                            </a>
+                        )}
+                        {socialsData.scholar && (
+                            <a
+                                href={socialsData.scholar}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <SiGooglescholar
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Google Scholar'
                                 />
                             </a>
                         )}
@@ -182,9 +196,9 @@ function Landing() {
                                 spy='true'
                                 duration={2000}
                             >
-                                <Button className={classes.contactBtn}>
+                                {/* <Button className={classes.contactBtn}>
                                     Contact
-                                </Button>
+                                </Button> */}
                             </NavLink>
                         </div>
                     </div>
